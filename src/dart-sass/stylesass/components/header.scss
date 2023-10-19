@@ -1,0 +1,29 @@
+@import '../variable.scss';
+@import '../global.scss';
+@import '../libs/reset.scss';
+
+nav {
+  padding: 50px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    gap: 60px;
+  }
+
+  a {
+    font-weight: 500px;
+    font-size: 24px;
+    color: $primary-color;
+  }
+
+  & :focus {
+    text-decoration: underline;
+  }
+
+  li :hover {
+    text-decoration: underline;
+  }
+}
