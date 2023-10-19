@@ -1,0 +1,15 @@
+@import './variable.scss';
+
+* {
+  font-family: $font-stack;
+}
+
+body {
+  font: $font-stack;
+  color: $primary-color;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
