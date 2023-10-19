@@ -1,5 +1,4 @@
 import footer from '../../assets/footer-Desktop.png'
-import '../../style/footer.css'
 
 function Footer() {
   return (

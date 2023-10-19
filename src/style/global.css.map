@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../dart-sass/stylesass/variable.scss","../dart-sass/stylesass/global.scss"],"names":[],"mappings":"AAAQ;ACER;EACE,aDDW;;;ACIb;EACE,MDLW;ECMX,ODLc;;;ACQhB;EACE;EACA","file":"global.css"}
+{"version":3,"sourceRoot":"","sources":["../dart-sass/stylesass/variable.scss","../dart-sass/stylesass/global.scss"],"names":[],"mappings":"AAAQ;ACER;EACE,aDDW;;;ACIb;EACE,MDLW;ECMX;EACA,ODNc","file":"global.css"}
