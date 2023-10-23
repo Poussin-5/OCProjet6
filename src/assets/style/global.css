@@ -4,13 +4,13 @@
 }
 
 body {
-  font: "montserrat", "sans-serif";
   color: #ff6060;
 }
 
-img {
-  width: 100%;
-  height: 100%;
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 /*# sourceMappingURL=global.css.map */

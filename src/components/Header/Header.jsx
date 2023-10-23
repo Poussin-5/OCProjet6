@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
 import logo from '../../assets/LOGO.png'
-import '../../style/header.css'
+import './header.css'
 
 function Header() {
   return (
     <nav>
-      <div>
+      <h1>
         <Link to="/">
           <img src={logo} alt="kasa" />
         </Link>
-      </div>
+      </h1>
       <ul>
         <li>
           <Link to="/">Accueil</Link>
