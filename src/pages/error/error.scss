@@ -1,0 +1,21 @@
+@import '../../assets/style/variable.scss';
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 188px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 36px;
+  }
+  a {
+    font-size: 18px;
+    color: $primary-color;
+  }
+}
