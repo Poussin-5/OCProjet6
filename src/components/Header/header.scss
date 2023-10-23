@@ -1,6 +1,6 @@
-@import '../variable.scss';
-@import '../global.scss';
-@import '../libs/reset.scss';
+@import '../../assets/style/variable.scss';
+@import '../../assets/style/global.scss';
+@import '../../assets/style/libs/reset.scss';
 
 nav {
   padding: 50px 60px;
@@ -14,6 +14,7 @@ nav {
   }
 
   a {
+    text-decoration: none;
     font-weight: 500px;
     font-size: 24px;
     color: $primary-color;

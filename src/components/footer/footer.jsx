@@ -1,12 +1,11 @@
 import footer from '../../assets/footer-Desktop.png'
+import './footer.css'
 
 function Footer() {
   return (
-    <>
-      <div>
-        <img src={footer} alt="footer kasa" />
-      </div>
-    </>
+    <div className="footer">
+      <img src={footer} alt="footer kasa" />
+    </div>
   )
 }
 

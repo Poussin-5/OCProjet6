@@ -1,13 +1,11 @@
-import couv from '../../assets/couv-home.png'
-import '../../style/home.css'
+import './banner.css'
 
-function Banner() {
+function Banner({ src, alt, text, classDiv, classText, classOpacity }) {
   return (
-    <div className="home-banner">
-      <div className="home-banner-img">
-        <img src={couv} alt="paysage de falaise en bord de mer" />
-        <h1 className="home-banner-text">Chez vous, partout et ailleurs</h1>
-      </div>
+    <div className={classDiv}>
+      <div className={classOpacity}></div>
+      <img src={src} alt={alt} />
+      <p className={classText}>{text}</p>
     </div>
   )
 }

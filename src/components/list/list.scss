@@ -1,0 +1,12 @@
+@import '../../assets/style/variable.scss';
+
+.acc-list {
+  margin: 0 60px 50px 60px;
+  border-radius: 25px;
+  padding: 50px;
+  background: $background-grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+}

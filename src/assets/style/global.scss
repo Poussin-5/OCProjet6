@@ -5,7 +5,11 @@
 }
 
 body {
-  font: $font-stack;
-  font-weight: 500;
   color: $primary-color;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }

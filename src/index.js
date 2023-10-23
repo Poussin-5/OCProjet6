@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './style/global.css'
+import './assets/style/global.css'
 import reportWebVitals from './reportWebVitals'
 import Header from './components/Header/Header'
 import Home from './pages/home/Home'
 import Error from './pages/error/error'
 import Footer from './components/footer/footer'
+import Apropos from './pages/a-propos/a-propos'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -15,7 +16,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/a-propos" />
+        <Route path="/a-propos" element={<Apropos />} />
         <Route path="/logement" />
         <Route path="*" element={<Error />} />
       </Routes>
