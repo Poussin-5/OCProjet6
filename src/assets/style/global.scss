@@ -1,0 +1,15 @@
+@import './variable.scss';
+
+* {
+  font-family: $font-stack;
+}
+
+body {
+  color: $primary-color;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
