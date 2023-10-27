@@ -20,7 +20,7 @@ function Collapse({ titre, text, classTitle, classText }) {
         </button>
       </div>
       <div className={classText}>
-        <p>{text}</p>
+        <ul>{text}</ul>
       </div>
     </div>
   ) : (
@@ -36,7 +36,7 @@ function Collapse({ titre, text, classTitle, classText }) {
         </button>
       </div>
       <div className={classText}>
-        <p>{text}</p>
+        <ul>{text}</ul>
       </div>
     </div>
   )

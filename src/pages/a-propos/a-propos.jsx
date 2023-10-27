@@ -1,6 +1,7 @@
 import Banner from '../../components/banner/banner'
 import Couv from '../../assets/couv-a-propos.png'
 import Collapse from '../../components/collapse/collapse'
+import './a-propos.css'
 
 function Apropos() {
   return (

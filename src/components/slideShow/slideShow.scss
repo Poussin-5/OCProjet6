@@ -1,0 +1,41 @@
+@import '../../assets/style/variable.scss';
+
+.slide-show {
+  position: relative;
+}
+.slide-show-img {
+  background-position: center;
+  border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-number {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slide-show-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  button {
+    height: 25%;
+    background: transparent;
+    border: none;
+  }
+  & :hover {
+    cursor: pointer;
+  }
+}
