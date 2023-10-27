@@ -8,6 +8,7 @@ function List({ item, classes }) {
         {item.map(({ id, cover, title }) => (
           <Card
             key={id}
+            id={id}
             classOpacity={'opacity'}
             cover={cover}
             title={title}
