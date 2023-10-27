@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom'
-import { accList } from '../../accomodation'
+import logement from '../../data/logement.json'
 import Accomodation from '../../components/accomodation/accomodation'
 
 function Logement() {
@@ -7,7 +7,7 @@ function Logement() {
 
   return (
     <ul>
-      {accList.map(
+      {logement.map(
         ({
           id,
           title,

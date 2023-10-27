@@ -1,7 +1,7 @@
 import Banner from '../../components/banner/banner'
 import List from '../../components/list/list'
 import couv from '../../assets/couv-home.png'
-import { accList } from '../../accomodation'
+import logement from '../../data/logement.json'
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
         classDiv={'banner-img'}
         classText={'home-banner-text'}
       />
-      <List item={accList} classes={'acc-list'} />
+      <List item={logement} classes={'acc-list'} />
     </div>
   )
 }

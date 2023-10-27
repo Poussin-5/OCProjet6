@@ -6,7 +6,7 @@
 .slide-show-img {
   background-position: center;
   border-radius: 25px;
-  background-size: 100%, 100%, contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
   display: flex;
@@ -34,5 +34,8 @@
     height: 25%;
     background: transparent;
     border: none;
+  }
+  & :hover {
+    cursor: pointer;
   }
 }
