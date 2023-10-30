@@ -7,7 +7,6 @@ function SlideShow({ pictures }) {
   const images = pictures.map((image) => [image])
   const [slideNumber, setSlideNumber] = useState(1)
   const [activPic, setActivPic] = useState(0)
-  console.log(images)
 
   if (images.length <= 1) {
     return (

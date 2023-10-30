@@ -5,9 +5,13 @@
 }
 
 body {
-  font: "montserrat", "sans-serif";
-  font-weight: 500;
   color: #ff6060;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -94,8 +98,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+nav img {
+  height: 100%;
+}
 nav ul {
   display: flex;
+  align-items: center;
   gap: 60px;
 }
 nav a {
@@ -104,11 +112,30 @@ nav a {
   font-size: 24px;
   color: #ff6060;
 }
-nav :focus {
+nav .underline {
   text-decoration: underline;
 }
 nav li :hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 30px 10px;
+  }
+  nav img {
+    height: auto;
+    width: 145px;
+  }
+  nav ul {
+    justify-content: flex-end;
+    width: 50%;
+    gap: 25px;
+    text-transform: uppercase;
+  }
+  nav a {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

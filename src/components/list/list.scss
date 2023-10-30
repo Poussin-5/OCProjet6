@@ -1,7 +1,7 @@
 @import '../../assets/style/variable.scss';
 
 .acc-list {
-  margin: 0 60px 50px 60px;
+  margin: 0 60px;
   border-radius: 25px;
   padding: 50px;
   background: $background-grey;
@@ -9,4 +9,18 @@
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .acc-list {
+    margin: 0 10px;
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 20px;
+    a {
+      height: 255px;
+      width: 100%;
+    }
+  }
 }

@@ -28,4 +28,14 @@
   transform: translate(-50%, -50%);
 }
 
+@media (max-width: 768px) {
+  .banner-img {
+    margin: 0 10px;
+    height: 110px;
+  }
+  .banner-img .home-banner-text {
+    font-size: 24px;
+  }
+}
+
 /*# sourceMappingURL=banner.css.map */

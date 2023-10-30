@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: 100px;
+  padding: 40px;
   h2 {
     padding: 0;
     margin: 0;
@@ -13,9 +14,25 @@
   }
   p {
     font-size: 36px;
+    text-align: center;
   }
   a {
     font-size: 18px;
     color: $primary-color;
+  }
+}
+
+@media (max-width: 768px) {
+  .error-page {
+    h2 {
+      font-size: 96px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+    a {
+      font-size: 14px;
+    }
   }
 }

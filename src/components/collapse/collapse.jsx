@@ -7,29 +7,13 @@ function Collapse({ titre, text, classTitle, classText }) {
   const [isClose, setIsClose] = useState(true)
   const angleUp = <FontAwesomeIcon icon={faAngleUp} size="2xl" />
 
-  return isClose ? (
-    <div className="collapse close">
+  return (
+    <div className={`collapse ${isClose ? 'close' : 'open'}`}>
       <div className={classTitle}>
         <h2>{titre}</h2>
         <button
           onClick={() => {
-            setIsClose(false)
-          }}
-        >
-          {angleUp}
-        </button>
-      </div>
-      <div className={classText}>
-        <ul>{text}</ul>
-      </div>
-    </div>
-  ) : (
-    <div className="collapse open">
-      <div className={classTitle}>
-        <h2>{titre}</h2>
-        <button
-          onClick={() => {
-            setIsClose(true)
+            setIsClose(!isClose)
           }}
         >
           {angleUp}

@@ -29,9 +29,11 @@
 }
 .tags-list .tag {
   background-color: #ff6060;
+  display: flex;
   color: white;
   border-radius: 10px;
   padding: 5px 25px;
+  align-items: center;
 }
 
 .host-rating {
@@ -68,6 +70,7 @@
   width: 50%;
 }
 .description-equipments .collapse-title {
+  align-items: center;
   width: 100%;
 }
 .description-equipments .collapse-txt {
@@ -75,6 +78,55 @@
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  .accomodation {
+    padding: 0 10px;
+  }
+  .accomodation-txt {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .showing .name h2 {
+    font-size: 18px;
+  }
+  .showing .name p {
+    font-size: 14px;
+  }
+  .tags-list {
+    box-sizing: border-box;
+    overflow: scroll;
+  }
+  .tags-list .tag {
+    font-size: 10px;
+  }
+  .host-rating {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .host-rating .host p {
+    font-size: 12px;
+  }
+  .host-rating .host img {
+    height: 30px;
+  }
+  .host-rating .rating .fa-xl {
+    font-size: 1em;
+  }
+  .description-equipments {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .description-equipments .collapse {
+    width: 100%;
+  }
+  .description-equipments .collapse-title {
+    padding: 5px;
+  }
+  .description-equipments .collapse-title h2 {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=accomodation.css.map */

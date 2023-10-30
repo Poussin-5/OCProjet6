@@ -8,8 +8,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 
+  img {
+    height: 100%;
+  }
   ul {
     display: flex;
+    align-items: center;
     gap: 60px;
   }
 
@@ -20,11 +24,31 @@ nav {
     color: $primary-color;
   }
 
-  & :focus {
+  .underline {
     text-decoration: underline;
   }
 
   li :hover {
     text-decoration: underline;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 30px 10px;
+
+    img {
+      height: auto;
+      width: 145px;
+    }
+    ul {
+      justify-content: flex-end;
+      width: 50%;
+      gap: 25px;
+      text-transform: uppercase;
+    }
+    a {
+      font-size: 12px;
+    }
   }
 }
