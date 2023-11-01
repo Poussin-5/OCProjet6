@@ -4,4 +4,16 @@
   gap: 40px;
 }
 
+@media (max-width: 768px) {
+  .a-propos .collapse {
+    margin: 0 10px;
+  }
+  .a-propos .collapse-title {
+    width: 100%;
+  }
+  .a-propos .collapse-txt {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=a-propos.css.map */

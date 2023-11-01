@@ -3,3 +3,18 @@
   flex-direction: column;
   gap: 40px;
 }
+
+@media (max-width: 768px) {
+  .a-propos {
+    .collapse {
+      margin: 0 10px;
+    }
+    .collapse-title {
+      width: 100%;
+    }
+
+    .collapse-txt {
+      width: 100%;
+    }
+  }
+}
